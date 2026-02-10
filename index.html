@@ -6,12 +6,12 @@
     <title>Blood Donor Finder - Emergency Portal</title>
     
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/NearBlood/style.css">
-    <link rel="manifest" href="/NearBlood/manifest.json">
+    <link rel="stylesheet" href="./NearBlood/style.css">
+    <link rel="manifest" href="./NearBlood/manifest.json">
 <meta name="theme-color" content="#0d6efd">
     <script>
   if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("/NearBlood/service-worker.js")
+    navigator.serviceWorker.register("./NearBlood/service-worker.js")
       .then(() => console.log("Service Worker Registered"))
       .catch(err => console.error("SW failed:", err));
   }
@@ -122,6 +122,6 @@
         </div>
     </div>
 
-    <script type="module" src="/NearBlood/script.js"></script>
+    <script type="module" src="./NearBlood/script.js"></script>
 </body>
 </html>
