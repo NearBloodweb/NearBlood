@@ -4,7 +4,7 @@
   "start_url": "/NearBlood/",
   "display": "standalone",
   "theme_color": "#0d6efd",
-  "background_color": "#ffffff",
+  "background_color": "#D73332",
   "icons": [
     {
       "src": "/NearBlood/img.png",
